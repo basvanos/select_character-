@@ -1,2 +1,2 @@
 # select_character-
-Select Character 
+Function > Select Character 

@@ -1,0 +1,303 @@
+body {
+    overflow: hidden;
+    background: -webkit-linear-gradient(90deg, #232526 10%, #414345 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #232526 10%, #414345 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */
+  font-family: "helvetica", Georgia, Serif;      
+  color:#fff;  
+}
+
+#container {
+    width: 600px;
+    height: 120px;
+    margin: 0 auto;
+}
+.left {
+   padding-top:50px;
+   float: left;
+   width: 200px;
+}
+/* Character square */ 
+
+.square{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    float:left
+    left:10px;
+}
+
+        .square-in{
+            position: absolute; 
+            width: 90px;
+            height: 90px;
+            background:  #fff;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;  
+         
+
+
+        }
+        .square-2{
+            position: absolute; 
+            width: 90px;
+            height: 90px;;
+            background:  #fff;
+            opacity:0.6;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;
+         
+             /* Animatie snelheid */
+            -webkit-animation-name: pulse;
+            -webkit-animation-duration: 1000ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: pulse;
+            -moz-animation-duration: 1000ms;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            -ms-animation-name: pulse;
+            -ms-animation-duration: 1000ms;
+            -ms-animation-iteration-count: infinite;
+            -ms-animation-timing-function: linear;
+            
+            animation-name: pulse;
+            animation-duration: 1000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+
+        .square-3{
+            position: absolute; 
+            width: 90px;
+            height: 90px;
+            background:  #fff;
+            opacity:0.8;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;
+
+             
+            /* Animatie snelheid */ 
+            -webkit-animation-name: pulse;
+            -webkit-animation-duration: 2000ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: pulse;
+            -moz-animation-duration: 2000ms;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            -ms-animation-name: pulse;
+            -ms-animation-duration: 2000ms;
+            -ms-animation-iteration-count: infinite;
+            -ms-animation-timing-function: linear;
+            
+            animation-name: pulse;
+            animation-duration: 2000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            
+        }
+/* Character Triangle */ 
+
+.triangle{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    float:left
+    left:10px;
+}
+
+        .triangle-in{
+            position: absolute; 
+        	width: 0; 
+        	height: 0; 
+        	border-left: 50px solid transparent;
+        	border-right:50px solid transparent;
+        	border-top: 90px solid #fff;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;  
+          
+
+        }
+        .triangle-2{
+            position: absolute; 
+            width: 0; 
+        	height: 0; 
+        	border-left: 50px solid transparent;
+        	border-right:50px solid transparent;
+        	border-top: 90px solid #fff;
+            opacity:0.6;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;
+         
+             /* Animatie snelheid */
+            -webkit-animation-name: pulse;
+            -webkit-animation-duration: 1000ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: pulse;
+            -moz-animation-duration: 1000ms;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            -ms-animation-name: pulse;
+            -ms-animation-duration: 1000ms;
+            -ms-animation-iteration-count: infinite;
+            -ms-animation-timing-function: linear;
+            
+            animation-name: pulse;
+            animation-duration: 1000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+
+        .triangle-3{ 
+            position: absolute; 
+            width: 0; 
+        	height: 0; 
+        	border-left: 55px solid transparent;
+        	border-right:55px solid transparent;
+        	border-top: 90px solid #fff;
+            opacity:0.6;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;
+         
+
+             
+            /* Animatie snelheid */ 
+            -webkit-animation-name: pulse;
+            -webkit-animation-duration: 2000ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: pulse;
+            -moz-animation-duration: 2000ms;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            -ms-animation-name: pulse;
+            -ms-animation-duration: 2000ms;
+            -ms-animation-iteration-count: infinite;
+            -ms-animation-timing-function: linear;
+            
+            animation-name: pulse;
+            animation-duration: 2000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+
+/* Character circle */
+ .circle {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    float:left
+    left:10px;
+}
+        .circle-inin {
+            
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            background: #fff;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 5;
+            border-radius: 50%;
+        }
+        .circle-in {
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            background: #fff;
+            margin: auto;
+            opacity:0.6;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;
+            border-radius: 50%;
+           
+        }
+        .circle-2 {
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            background: #fff;
+            opacity:0.3;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;
+            border-radius: 50%;
+            /* Animatie snelheid */
+            -webkit-animation-name: pulse;
+            -webkit-animation-duration: 2000ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: spin;
+            -moz-animation-duration: 2000ms;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            -ms-animation-name: pulse;
+            -ms-animation-duration: 2000ms;
+            -ms-animation-iteration-count: infinite;
+            -ms-animation-timing-function: linear;
+            animation-name: pulse;
+            animation-duration: 2000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .circle-3 {
+            position: absolute;
+            width: 90px;
+            height:90px;
+            background: #fff;
+            opacity:0.8;
+            margin: auto; 
+            top: 0; left: 0; bottom: 0; right: 0;
+            z-index: 3;
+            border-radius: 50%;
+            /* Animatie snelheid */
+            -webkit-animation-name: pulse;
+            -webkit-animation-duration: 1000ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: pulse;
+            -moz-animation-duration: 1000ms;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            -ms-animation-name: pulse;
+            -ms-animation-duration: 1000ms;
+            -ms-animation-iteration-count: infinite;
+            -ms-animation-timing-function: linear;
+            animation-name: pulse;
+            animation-duration: 1000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+     
+
+/* Character pulse  */ 
+
+        @-webkit-keyframes pulse {
+            0% { -webkit-transform: scale(1); }
+            50% { -webkit-transform: scale(1.1); }
+            100% { -webkit-transform: scale(1); }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
